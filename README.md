@@ -10,7 +10,7 @@
 
 ## 本项目的视频讲解
 * [BXC_SipServer 哔哩哔哩视频讲解](https://www.bilibili.com/video/BV1Mv4y1d7Vy)
-* [BXC_SipServer 头条西瓜视频讲解](hhttps://www.ixigua.com/7247470596639064587?utm_source=xiguastudio)
+* [BXC_SipServer 头条西瓜视频讲解](https://www.ixigua.com/7247470596639064587?utm_source=xiguastudio)
 
 
 ## 介绍
