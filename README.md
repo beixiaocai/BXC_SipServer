@@ -1,17 +1,17 @@
 # BXC_SipServer
 
 * 作者：北小菜 
+* 官网：http://www.beixiaocai.com
 * 邮箱：bilibili_bxc@126.com
 * QQ：1402990689
 * 微信：bilibili_bxc
-* 作者主页：http://www.any12345.com/user/4
 * 作者-哔哩哔哩主页：https://space.bilibili.com/487906612
 * 作者-头条西瓜主页：https://www.ixigua.com/home/4171970536803763
+* github开源地址：https://github.com/any12345com/BXC_SipServer
+* gitee开源地址：https://gitee.com/Vanishi/BXC_SipServer
 
-## 本项目的视频讲解
-* [BXC_SipServer 哔哩哔哩视频讲解](https://www.bilibili.com/video/BV1Mv4y1d7Vy)
-* [BXC_SipServer 头条西瓜视频讲解](https://www.ixigua.com/7247470596639064587?utm_source=xiguastudio)
-
+## 相关视频
+* BXC_SipServer视频教程地址：https://www.bilibili.com/video/BV1Mv4y1d7Vy
 
 ## 介绍
 1. 一个基于C++开发的国标GB28181流媒体信令服务器。
@@ -23,32 +23,26 @@
 5. 补充说明一下，这只是我为了讲课而开发的demo级的信令服务器，部分信令功能并没有实现。但是基本功能是没问题了，对接摄像头是完全没问题的，
    对于学习国标流媒体信令服务器的新手，完全够用了，可以快速体验国标协议，通过wireshark抓包快速感受国标对接的流程。
 
-## BXC_SipServer介绍
-1. 基于osip和exosip开源库，开发的国标GB28181流媒体信令服务器
-2. osip和exosip版本一定要对应，否则可能会出现不兼容的情况。我经常用的版本osip2-5.1.2和exosip2-5.1.2，
-我准备了一份放到了百度云
-* osip2-5.1.2百度云链接：https://pan.baidu.com/s/1P25xUSri3otwjfaPo5g9Zg 提取码：1234
-* exosip2-5.1.2百度云链接：https://pan.baidu.com/s/1ClkPjDzc5VjSCthNAL0nLQ 提取码：1234
+## 下载第三方依赖库
+* 依赖osip和exosip，版本一定要对应，否则可能会出现不兼容的情况。我经常用的版本osip2-5.1.2和exosip2-5.1.2
+* osip2-5.1.2 + exosip2-5.1.2 网盘下载链接：https://pan.quark.cn/s/bc3a69677a8f 提取码：SBCp
 * windows系统编译还需要c-ares库
+* osip官网下载地址: http://ftp.twaren.net/Unix/NonGNU/osip/
+* exosip官网下载地址: http://download.savannah.gnu.org/releases/exosip/
+* c-ares官网下载地址: https://c-ares.haxx.se/
 
-#### 附3个库的官方下载地址：
-~~~
-  osip:   http://ftp.twaren.net/Unix/NonGNU/osip/
-  exosip: http://download.savannah.gnu.org/releases/exosip/
-  c-ares: https://c-ares.haxx.se/
-~~~
+## 下载ZLMediaKit流媒体服务器
 
+* [ZLMediaKit开源地址](https://gitee.com/xia-chu/ZLMediaKit)
+* [ZLMediaKit直接可用无需编译的程序 ](https://gitee.com/Vanishi/zlm)
 
-## ZLMediaKit 介绍
-1. ZLMediaKit是一个国人开发的流媒体开源项目，非常的牛逼，具体我就不介绍了，大家可以自行了解
-2. [ZLMediaKit](https://gitee.com/xia-chu/ZLMediaKit) 开源地址
 
 ## 快速开始
 
-#### linxu系统编译运行
+### linxu系统编译运行
 ~~~
 
-一，首先安装osip和exosip，建议按照上面的BXC_SipServer介绍下载我推荐的 osip2-5.1.2和exosip2-5.1.2
+一，编译osip和exosip
 
 1. 编译安装 osip2-5.1.2
  cd osip2-5.1.2  
@@ -62,7 +56,7 @@
  make
  sudo make install
  
-二，开始安装 BXC_SipServer
+二，编译SipServer
 1. 下载代码
  git clone https://gitee.com/Vanishi/BXC_SipServer.git
 2. 编译
